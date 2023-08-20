@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contact_details",
+  "info": {
+    "singularName": "contact-detail",
+    "pluralName": "contact-details",
+    "displayName": "ContactDetail"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "emailId": {
+      "type": "email"
+    },
+    "name": {
+      "type": "string"
+    },
+    "message": {
+      "type": "richtext"
+    },
+    "contactNumber": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "string"
+    }
+  }
+}
